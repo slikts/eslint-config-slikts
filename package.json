@@ -1,8 +1,12 @@
 {
   "name": "eslint-config-slikts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "keywords": ["eslint", "slikts", "airbnb"],
+  "keywords": [
+    "eslint",
+    "slikts",
+    "airbnb"
+  ],
   "author": "slikts <dabas@untu.ms>",
   "license": "MIT",
   "dependencies": {
