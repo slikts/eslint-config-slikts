@@ -5,7 +5,7 @@
 [![Dependency Status](https://david-dm.org/slikts/eslint-config-slikts.svg)](https://david-dm.org/slikts/eslint-config-slikts)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
-```
+```sh
 npm i -D eslint-config-slikts
 # npm i -g install-peerdeps
 install-peerdeps --dev eslint-config-airbnb-base

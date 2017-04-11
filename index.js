@@ -4,6 +4,9 @@ module.exports = {
   ].map(require.resolve),
   rules: {
     "semi": ["error", "never"],
-    "comma-dangle": ["error", "always-multiline"]
+    "comma-dangle": ["error", "always-multiline"],
+    "env": {
+      "es6": true,
+    }
   }
 }
