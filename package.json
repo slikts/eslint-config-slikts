@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-slikts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "👾💪",
   "keywords": [
     "eslint",
@@ -10,7 +10,7 @@
   "author": "slikts <dabas@untu.ms>",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb": "^14.1.0"
+    "eslint-config-airbnb-base": "latest"
   },
   "repository": {
     "type": "git",

@@ -8,6 +8,6 @@
 ```
 npm i -D eslint-config-slikts
 # npm i -g install-peerdeps
-install-peerdeps --dev eslint-config-airbnb
+install-peerdeps --dev eslint-config-airbnb-base
 echo '{ "extends": "slikts" }' > .eslintrc.json
 ```
