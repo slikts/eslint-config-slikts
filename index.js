@@ -5,8 +5,8 @@ module.exports = {
   rules: {
     "semi": ["error", "never"],
     "comma-dangle": ["error", "always-multiline"],
-    "env": {
-      "es6": true,
-    }
+  },
+  env: {
+    "es6": true,
   }
 }
