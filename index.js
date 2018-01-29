@@ -1,12 +1,17 @@
 module.exports = {
-  extends: [
-    'eslint-config-airbnb-base',
-  ].map(require.resolve),
+  extends: ['eslint-config-airbnb-base', 'plugin:prettier/recommended'].map(require.resolve),
   rules: {
-    "semi": ["error", "never"],
-    "comma-dangle": ["error", "always-multiline"],
+    'prettier/prettier': [
+      'error',
+      {
+        trailingComma: 'es5',
+        semi: false,
+        singleQuote: true,
+        printWidth: 100,
+      },
+    ],
   },
   env: {
-    "es6": true,
-  }
+    es6: true,
+  },
 }

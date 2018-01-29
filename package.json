@@ -1,11 +1,12 @@
 {
-  "name": "eslint-config-slikts",
-  "version": "1.0.10",
+  "name": "@slikts/eslint-prettier",
+  "version": "1.0.0",
   "description": "👾💪",
   "keywords": [
     "eslint",
     "slikts",
-    "airbnb"
+    "airbnb",
+    "prettier"
   ],
   "author": "slikts <dabas@untu.ms>",
   "license": "MIT",
@@ -14,6 +15,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:slikts/eslint-config-slikts.git"
+    "url": "git@github.com:slikts/eslint-config-slikts.git#prettier"
   }
 }
