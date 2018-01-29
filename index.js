@@ -1,5 +1,8 @@
+const { resolve } = require
+
 module.exports = {
-  extends: ['eslint-config-airbnb-base', 'plugin:prettier/recommended'].map(require.resolve),
+  extends: ['eslint-config-airbnb-base', 'eslint-config-prettier'].map(resolve),
+  plugins: ['prettier'],
   rules: {
     'prettier/prettier': [
       'error',
