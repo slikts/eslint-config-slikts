@@ -5,6 +5,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'func-names': [1, 'as-needed'],
+    'quotes': [1, 'backtick'],
     'prettier/prettier': [
       'error',
       {
