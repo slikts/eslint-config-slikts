@@ -11,8 +11,8 @@
   "author": "slikts <dabas@untu.ms>",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1"
   },
   "repository": {
     "type": "git",

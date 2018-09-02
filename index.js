@@ -8,12 +8,7 @@ module.exports = {
     'quotes': [1, 'backtick'],
     'prettier/prettier': [
       'error',
-      {
-        trailingComma: 'es5',
-        semi: false,
-        singleQuote: true,
-        printWidth: 100,
-      },
+      require('.prettierrc.json'),
     ],
   },
   env: {
