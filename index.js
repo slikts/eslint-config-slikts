@@ -5,10 +5,15 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'func-names': [1, 'as-needed'],
-    'quotes': [1, 'backtick'],
+    quotes: [1, 'backtick'],
     'prettier/prettier': [
       'error',
-      require('.prettierrc.json'),
+      {
+        trailingComma: 'es5',
+        semi: false,
+        singleQuote: true,
+        printWidth: 100,
+      },
     ],
   },
   env: {
