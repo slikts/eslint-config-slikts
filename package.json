@@ -20,5 +20,6 @@
   },
   "peerDependencies": {
     "eslint-plugin-prettier": "^2.5.0"
-  }
+  },
+  "devDependencies": {}
 }

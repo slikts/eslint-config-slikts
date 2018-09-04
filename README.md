@@ -7,7 +7,6 @@
 
 ```sh
 npm i -D @slikts/eslint-config-prettier
-# npm i -g install-peerdeps
-install-peerdeps --dev eslint-config-airbnb-base
+npx install-peerdeps --dev eslint-config-airbnb-base
 echo '{ "extends": "@slikts/prettier" }' > .eslintrc.json
 ```
